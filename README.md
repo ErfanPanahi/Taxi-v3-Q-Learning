@@ -4,7 +4,7 @@
 
 *As stated in the documentation, you drive a taxi-cab. There are four locations at the four corners of the table. A passenger is waiting for the taxi at one location and you have to drive him to the designated location. You are rewarded for each move, with a low penalty when you are on travel, with a large penalty if you pick-up or drop-off the passenger at the wrong location, but you earn a big reward if you succeed. Simple as hell.*
 
-{ text-align: center; }![image](https://user-images.githubusercontent.com/107314081/218301950-41864866-3ed7-45dc-82bc-4da7b2b604f2.png)
+![image](https://user-images.githubusercontent.com/107314081/218301950-41864866-3ed7-45dc-82bc-4da7b2b604f2.png)
 
 
 >> *States*
@@ -71,11 +71,11 @@ env.step(1)
 
 *To start learning, the Q-table is generally randomly initialized (or initialized to 0). The agent then explores its environment by randomly choosing an action and get a reward for its action. The idea is to let the agent exploring the environment and getting some rewards. But after a while, we need to exploit the information gathered. From a given state, the agent must compute the expected reward for each action it can take and choose the one with the maximum expected reward:*
 
-{ text-align: center; }![image](https://user-images.githubusercontent.com/107314081/218301691-7b584161-6574-424b-8bcf-334b2fc2403f.png)
+![image](https://user-images.githubusercontent.com/107314081/218301691-7b584161-6574-424b-8bcf-334b2fc2403f.png)
 
 *The core of RL is then given by the Bellman equation which tells us how to update the Q-values of the Q-table:*
 
-{ text-align: center; }![image](https://user-images.githubusercontent.com/107314081/218301708-77fce188-c237-4f73-9c57-21ab1bda87b6.png)
+![image](https://user-images.githubusercontent.com/107314081/218301708-77fce188-c237-4f73-9c57-21ab1bda87b6.png)
 
 *where*
 
